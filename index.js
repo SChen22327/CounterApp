@@ -5,4 +5,7 @@ function increment() {
     document.getElementById("count-el").innerHTML = count
     console.log(count)
 }
-document.getElementById("count-el").innerText = 5
+function save() {
+    let history = document.getElementById("history")
+    history.innerHTML += count + " - "
+}
