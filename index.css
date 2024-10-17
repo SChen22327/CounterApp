@@ -15,8 +15,7 @@ body {
 
 .container{
     align-self: center;
-    background: bisque;
-    opacity: 0.90;
+    background: rgba(255, 228, 196,0.85);
     max-width: 80%; 
     margin: auto; /* this helps centering */
     border: 3px solid black;
@@ -36,8 +35,8 @@ h2 {
 }
 
 button {
-    /*border: none; */
-    border: 1px solid #211717;
+    border: none;
+    /*border: 1px solid #211717;*/
     padding-top: 10px;
     padding-bottom: 10px;
     color: white;
@@ -48,7 +47,7 @@ button {
 }
 
 #increment-btn {
-    background: #2C2891;;
+    background: #2C2891;
 }
 
 #save-btn {
